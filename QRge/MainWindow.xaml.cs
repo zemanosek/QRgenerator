@@ -42,5 +42,15 @@ namespace QRge
             DrawingImage vkladanyObrazek = qrKod.GetGraphic(30);
             obrazekVystup.Source = vkladanyObrazek;
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void textboxVstup_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

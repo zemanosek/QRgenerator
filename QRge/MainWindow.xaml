@@ -8,8 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnPotvrzeni" Content="Generuj" HorizontalAlignment="Center" Margin="0,374,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.47,0.562" FontSize="24" FontFamily="Comic Sans MS" Click="Button_Click"/>
-        <TextBox x:Name="textboxVstup" HorizontalAlignment="Center" Margin="0,343,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="31" FontSize="34"/>
+        <TextBox x:Name="textboxVstup" HorizontalAlignment="Center" Margin="0,343,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="31" FontSize="34" TextChanged="textboxVstup_TextChanged"/>
         <Image x:Name="obrazekVystup" Margin="256,53,256,138"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,314,0,0" TextWrapping="Wrap" Text="      Zadej text" VerticalAlignment="Top" Width="150" Height="24" TextChanged="TextBox_TextChanged" FontSize="18" BorderBrush="White"/>
 
     </Grid>
 </Window>
